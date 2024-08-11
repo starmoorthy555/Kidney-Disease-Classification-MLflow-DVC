@@ -20,6 +20,7 @@ list_of_files = [
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
+    "requirements.txt",
     "setup.py",
     "research/trail.ipynb",
     "templets/index.html"
