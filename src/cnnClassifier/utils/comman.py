@@ -7,7 +7,7 @@ from pathlib import Path
 from cnnClassifier import logger
 import json
 import joblib
-from typing import any
+from typing import Any
 import base64
 
 @ensure_annotations
@@ -25,9 +25,10 @@ def read_yaml(path_of_yaml:Path) -> ConfigBox:
         ConfiqBox: ConfiqBox type
     """
     try:
+        print(path_of_yaml)
         with open(path_of_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
-            logger.info(f"yaml file:{path of yaml} load sucessfully")
+            logger.info(f"yaml file:{path_of_yaml} load sucessfully")
             return ConfigBox(content)
     except BoxValueError:
         raise ValueError("yaml file is empty")
@@ -36,16 +37,16 @@ def read_yaml(path_of_yaml:Path) -> ConfigBox:
 
 @ensure_annotations
 def create_path(list_of_paths:list,verbose=True):
-      """create list of directories
+    """create list of directories
 
     Args:
         path_to_directories (list): list of path of directories
         ignore_log (bool, optional): ignore if multiple dirs is to be created. Defaults to False.
     """
-    for path in list_of paths:
+    for path in list_of_paths:
         os.makedirs(path,exist_ok=True)
         if verbose:
-             logger.info(f"Directorys:{path} sucessfully")
+            logger.info(f"Directorys:{path} sucessfully")
 
 
 @ensure_annotations
@@ -102,7 +103,7 @@ def load_bin(path:Path) ->str:
     logger.info(f"Binary file load from:{path}")
 
 @ensure_annotations
-def get_siz(path:Path)->str:
+def get_size(path:Path)->str:
     """get size in KB
 
     Args:
