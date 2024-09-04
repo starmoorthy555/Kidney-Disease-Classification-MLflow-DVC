@@ -166,3 +166,262 @@ NameError: name 'os' is not defined
 [2024-08-17 04:36:54,317: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
 [2024-08-17 04:36:56,891: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
 [2024-08-17 04:36:58,029: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2024-08-30 17:20:08,856: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-08-30 17:21:57,176: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-08-30 17:37:40,129: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 17:37:40,214: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 17:37:40,219: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 17:39:29,060: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 17:39:29,070: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 17:39:29,070: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 17:40:04,271: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 17:40:04,276: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 17:40:04,276: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 17:41:18,828: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 17:41:18,838: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 17:41:18,838: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 17:43:01,733: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 17:43:01,738: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 17:43:01,743: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 17:43:01,743: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 17:44:31,336: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 17:44:31,341: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 17:44:31,346: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 17:44:31,346: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 17:45:22,532: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 17:45:22,542: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 17:45:22,542: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 17:45:22,547: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 19:07:44,419: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 19:07:44,434: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 19:07:44,434: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 19:07:44,439: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 19:10:53,135: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 19:10:53,140: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 19:10:53,145: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 19:10:53,145: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 19:11:32,773: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 19:11:32,778: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 19:11:32,778: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 19:11:32,783: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 19:12:04,580: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 19:12:04,585: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 19:12:04,585: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 19:12:04,590: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 19:13:12,442: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 19:13:12,452: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 19:13:12,452: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 19:13:12,457: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-30 19:14:15,594: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-30 19:14:15,604: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-30 19:14:15,604: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-30 19:14:15,609: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-08-31 02:38:28,879: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-08-31 02:38:31,943: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-08-31 02:38:31,959: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-08-31 02:38:31,959: INFO: comman: Directorys:artifacts sucessfully]
+[2024-08-31 02:38:31,959: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-09-02 08:51:09,187: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-02 08:54:55,039: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-02 08:56:39,321: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-02 08:58:30,004: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:18:58,325: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:22:07,054: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:23:46,775: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:25:39,496: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:27:19,149: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:28:37,462: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:28:39,139: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2024-09-03 07:28:39,185: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:28:39,236: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:28:39,236: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:28:39,236: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-03 07:29:18,272: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-03 07:29:20,382: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2024-09-03 07:29:20,382: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2024-09-03 07:29:20,423: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:29:20,438: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:29:20,438: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:29:20,447: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2024-09-03 07:29:22,591: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-03 07:29:23,219: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2024-09-03 07:29:23,219: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2024-09-03 07:29:23,219: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:29:23,236: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:29:23,242: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:29:23,242: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-09-03 07:31:56,345: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:31:57,986: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2024-09-03 07:31:58,006: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:31:58,016: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:31:58,016: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:31:58,016: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-03 07:32:37,738: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-03 07:32:39,912: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2024-09-03 07:32:39,912: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2024-09-03 07:32:39,912: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:32:39,948: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:32:39,948: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:32:39,948: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2024-09-03 07:32:41,455: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-03 07:32:42,534: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2024-09-03 07:32:42,534: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2024-09-03 07:32:42,534: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:32:42,550: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:32:42,555: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:32:42,555: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-09-03 07:41:40,716: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:41:42,960: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2024-09-03 07:41:42,970: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:41:42,985: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:41:42,990: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:41:42,990: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-03 07:41:43,010: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B726AA8490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B726AA8490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B726AA8490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 10, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage01_data_ingestion.py", line 13, in main
+    data_ingestion.data_download()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\data_ingestion.py", line 28, in data_download
+    raise e
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\data_ingestion.py", line 24, in data_download
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B726AA8490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2024-09-03 07:42:36,689: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:42:38,199: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2024-09-03 07:42:38,209: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:42:38,214: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:42:38,214: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:42:38,219: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-03 07:42:38,244: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D9B7CE04C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001D9B7CE04C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D9B7CE04C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 10, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage01_data_ingestion.py", line 13, in main
+    data_ingestion.data_download()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\data_ingestion.py", line 28, in data_download
+    raise e
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\data_ingestion.py", line 24, in data_download
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D9B7CE04C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2024-09-03 07:44:13,298: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-03 07:44:14,853: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2024-09-03 07:44:14,858: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-03 07:44:14,878: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-03 07:44:14,888: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-03 07:44:14,888: INFO: comman: Directorys:artifacts\training sucessfully]
+[2024-09-03 07:59:19,295: INFO: main: >>>>>stage:Model_Training completed<<<<<]
+[2024-09-04 07:43:05,037: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-09-04 07:43:07,578: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2024-09-04 07:43:07,593: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-04 07:43:07,609: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-04 07:43:07,614: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-04 07:43:07,614: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-04 07:44:19,473: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2024-09-04 07:44:21,920: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2024-09-04 07:44:21,920: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2024-09-04 07:44:21,938: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-04 07:44:21,938: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-04 07:44:21,948: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-04 07:44:21,948: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2024-09-04 07:44:24,133: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-04 07:44:24,803: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2024-09-04 07:44:24,803: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2024-09-04 07:44:24,803: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2024-09-04 07:44:24,822: INFO: comman: yaml file:params.yaml load sucessfully]
+[2024-09-04 07:44:24,828: INFO: comman: Directorys:artifacts sucessfully]
+[2024-09-04 07:44:24,828: INFO: comman: Directorys:artifacts\training sucessfully]

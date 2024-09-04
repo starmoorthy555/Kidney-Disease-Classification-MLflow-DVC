@@ -2,7 +2,6 @@ from src.cnnClassifier.config.configration import ConfigurationManager
 from src.cnnClassifier.components.prepare_basemodel import PrepareBaseModel
 from src.cnnClassifier import logger
 
-
 STAGE_NAME="Prepare base model"
 
 class PrepareBaseModelPipeline:

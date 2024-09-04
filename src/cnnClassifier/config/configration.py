@@ -2,7 +2,8 @@ import os
 from cnnClassifier.constants import *
 from src.cnnClassifier.utils.comman import read_yaml, create_path
 from src.cnnClassifier.entity.config_entity import (DataIngestionConfig,
-                                                    PrepareModelConfiq)
+                                                    PrepareModelConfiq,
+                                                    TrainingConfiq)
 
 class ConfigurationManager:
     def __init__(
@@ -38,3 +39,23 @@ class ConfigurationManager:
             parms_classes=self.parms.CLASSES
         )       
         return prepare_base_model_config
+    
+    def get_training_config(self):
+        training = self.config.training
+        prepare_base_model = self.config.prepare_base_model
+        parms = self.parms
+        trainig_data = os.path.join(self.config.data_ingestion.unzip_dir,'Kidney-CT-Scan')
+
+        create_path([Path(training.root_dir)])
+
+        training_confiq=TrainingConfiq(
+            root_dir=Path(training.root_dir),
+            trained_model_path=Path(training.training_model_path),
+            updated_base_model_path = Path(prepare_base_model.base_model_updated_path),
+            training_data = trainig_data,
+            parms_epoch = parms.EPOCHS,
+            parms_batch_size = parms.BATCH_SIZE,
+            parms_is_augumentaion = parms.AUGUMENTATION,
+            parms_image_size = parms.IMAGE_SIZE
+            )
+        return training_confiq

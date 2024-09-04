@@ -18,3 +18,14 @@ class PrepareModelConfiq:
     parms_include_top: bool
     parms_weights: str
     parms_classes: int
+
+@dataclass(frozen=True)
+class TrainingConfiq:
+    root_dir: Path
+    trained_model_path: Path
+    updated_base_model_path: Path
+    training_data: Path
+    parms_epoch: int
+    parms_batch_size: int
+    parms_is_augumentaion: bool
+    parms_image_size: list
