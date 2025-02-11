@@ -475,3 +475,48 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com'
 [2025-02-04 08:37:41,750: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/starmoorthy555/Kidney-Disease-Classification-MLflow-DVC "HTTP/1.1 200 OK"]
 [2025-02-04 08:37:41,765: INFO: helpers: Initialized MLflow to track repo "starmoorthy555/Kidney-Disease-Classification-MLflow-DVC"]
 [2025-02-04 08:37:41,770: INFO: helpers: Repository starmoorthy555/Kidney-Disease-Classification-MLflow-DVC initialized!]
+[2025-02-10 17:10:32,973: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 17:10:32,982: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 17:10:32,987: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-10 17:13:59,407: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 17:13:59,414: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 17:13:59,417: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-10 17:18:18,301: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 17:18:18,308: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 17:18:18,311: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-10 17:19:56,262: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 17:19:56,270: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 17:19:56,270: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-10 17:24:01,317: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 17:24:01,325: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 17:24:01,327: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-10 17:26:17,877: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-10 17:27:51,213: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-10 17:27:54,115: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-10 17:27:54,120: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 17:27:54,125: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 17:27:54,130: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-10 17:27:54,130: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-10 17:27:58,498: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-10 17:27:58,518: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 17:27:58,528: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 17:27:58,533: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-10 17:27:58,533: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-10 17:44:50,741: INFO: main: >>>>>stage:Model_Training completed<<<<<]
+[2025-02-10 17:44:50,741: INFO: main: *******************]
+[2025-02-10 17:44:50,741: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-10 17:44:50,741: ERROR: main: name 'EvaluationPipeline' is not defined]
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 43, in <module>
+    obj = EvaluationPipeline()
+NameError: name 'EvaluationPipeline' is not defined
+[2025-02-10 17:50:24,102: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-10 17:53:58,225: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-10 17:56:03,050: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-10 17:57:45,786: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-10 17:57:57,731: INFO: main: *******************]
+[2025-02-10 17:57:57,733: ERROR: main: name 'STAGE_NAME' is not defined]
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 44, in <module>
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+NameError: name 'STAGE_NAME' is not defined

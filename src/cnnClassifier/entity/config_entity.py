@@ -29,3 +29,12 @@ class TrainingConfiq:
     parms_batch_size: int
     parms_is_augumentaion: bool
     parms_image_size: list
+
+@dataclass(frozen=True)
+class EvaluationConfig:
+    path_of_model: Path
+    training_data: Path
+    all_params: dict
+    mlflow_uri: str
+    params_image_size: list
+    params_batch_size: int
