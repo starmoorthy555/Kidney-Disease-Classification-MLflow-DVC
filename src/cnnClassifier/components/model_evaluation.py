@@ -20,8 +20,8 @@ class Evaluation:
         )
 
         dataflow_kwargs = dict(
-            target_size=self.config.params_image_size[:-1],
-            batch_size=self.config.params_batch_size,
+            target_size=self.config.parms_image_size[:-1],
+            batch_size=self.config.parms_batch_size,
             interpolation="bilinear"
         )
 
@@ -45,7 +45,7 @@ class Evaluation:
     def evaluation(self):
         self.model = self.load_model(self.config.path_of_model)
         self._valid_generator()
-        self.score = model.evaluate(self.valid_generator)
+        self.score = self.model.evaluate(self.valid_generator)
         self.save_score()
 
     def save_score(self):
@@ -58,7 +58,7 @@ class Evaluation:
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
         with mlflow.start_run():
-            mlflow.log_params(self.config.all_params)
+            mlflow.log_parms(self.config.all_parms)
             mlflow.log_metrics(
                 {"loss": self.score[0], "accuracy": self.score[1]}
             )

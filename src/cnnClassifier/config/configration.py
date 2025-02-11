@@ -66,8 +66,8 @@ class ConfigurationManager:
             path_of_model="artifacts/training/model.h5",
             training_data="artifacts\data_ingestion\Kidney-CT-Scan",
             mlflow_uri="https://dagshub.com/starmoorthy555/Kidney-Disease-Classification-MLflow-DVC.mlflow",
-            all_params=self.params,
-            params_image_size=self.params.IMAGE_SIZE,
-            params_batch_size=self.params.BATCH_SIZE
+            all_parms=self.parms,
+            parms_image_size=self.parms.IMAGE_SIZE,
+            parms_batch_size=self.parms.BATCH_SIZE
         )
         return eval_config

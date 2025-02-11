@@ -34,7 +34,7 @@ class TrainingConfiq:
 class EvaluationConfig:
     path_of_model: Path
     training_data: Path
-    all_params: dict
+    all_parms: dict
     mlflow_uri: str
-    params_image_size: list
-    params_batch_size: int
+    parms_image_size: list
+    parms_batch_size: int
