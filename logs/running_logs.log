@@ -626,3 +626,196 @@ Traceback (most recent call last):
   File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\utils\file_utils.py", line 214, in read_yaml
     raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
 mlflow.exceptions.MissingConfigException: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.
+[2025-02-10 18:18:08,953: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-10 18:18:08,961: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-10 18:18:08,964: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 06:33:10,846: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-11 06:33:33,831: INFO: main: *******************]
+[2025-02-11 06:33:33,854: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-11 06:33:33,872: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-11 06:33:33,906: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-11 06:33:33,909: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 06:36:07,186: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 06:36:07,192: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 06:36:08,601: ERROR: main: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.]
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 46, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\model_evaluation.py", line 60, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 579, in create_run
+    experiment = self.get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 410, in get_experiment
+    experiment = self._get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 383, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1083, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1076, in _read_helper
+    result = read_yaml(root, file_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\utils\file_utils.py", line 214, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.
+[2025-02-11 06:41:35,878: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-11 06:41:44,515: INFO: main: *******************]
+[2025-02-11 06:41:44,518: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-11 06:41:44,579: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-11 06:41:44,618: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-11 06:41:44,618: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 06:50:13,586: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-11 06:50:20,876: INFO: main: *******************]
+[2025-02-11 06:50:20,876: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-11 06:50:20,886: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-11 06:50:20,911: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-11 06:50:20,916: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 06:52:10,581: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 06:52:10,586: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 06:52:11,351: ERROR: main: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.]
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 46, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\model_evaluation.py", line 60, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 579, in create_run
+    experiment = self.get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 410, in get_experiment
+    experiment = self._get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 383, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1083, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1076, in _read_helper
+    result = read_yaml(root, file_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\utils\file_utils.py", line 214, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.
+[2025-02-11 06:58:26,873: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-11 06:58:39,673: INFO: main: *******************]
+[2025-02-11 06:58:39,688: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-11 06:58:39,743: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-11 06:58:39,768: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-11 06:58:39,773: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 07:01:10,261: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:01:10,265: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:01:12,843: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 46, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\model_evaluation.py", line 61, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-02-11 07:05:49,387: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-11 07:06:04,892: INFO: main: *******************]
+[2025-02-11 07:06:04,892: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-11 07:06:04,902: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-11 07:06:04,942: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-11 07:06:04,942: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 07:08:21,042: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:08:21,042: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:08:22,025: ERROR: main: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.]
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 46, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\model_evaluation.py", line 60, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 579, in create_run
+    experiment = self.get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 410, in get_experiment
+    experiment = self._get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 383, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1083, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1076, in _read_helper
+    result = read_yaml(root, file_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\utils\file_utils.py", line 214, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.
+[2025-02-11 07:11:04,027: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-11 07:11:16,618: INFO: main: *******************]
+[2025-02-11 07:11:16,628: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-11 07:11:16,695: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-11 07:11:16,712: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-11 07:11:16,712: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 07:13:39,541: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:13:39,551: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:13:40,667: ERROR: main: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.]
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 46, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\model_evaluation.py", line 60, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 579, in create_run
+    experiment = self.get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 410, in get_experiment
+    experiment = self._get_experiment(experiment_id)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 383, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1083, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\store\tracking\file_store.py", line 1076, in _read_helper
+    result = read_yaml(root, file_name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\mlflow\utils\file_utils.py", line 214, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file 'D:\AI\Kidney-Disease-Classification-MLflow-DVC\mlruns\0\meta.yaml' does not exist.
+[2025-02-11 07:21:51,647: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-11 07:22:03,619: INFO: main: *******************]
+[2025-02-11 07:22:03,624: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-11 07:22:03,667: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-11 07:22:03,701: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-11 07:22:03,716: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-11 07:24:31,623: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:24:31,624: INFO: comman: Json_file save at: scores.json]
+[2025-02-11 07:24:49,842: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-02-11 07:25:01,136: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmpc35am049\model\data\model\assets]
+[2025-02-11 07:28:47,790: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
+
+x==========x]

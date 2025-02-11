@@ -61,13 +61,14 @@ class ConfigurationManager:
             )
         return training_confiq
 
+
     def get_evaluation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(
-            path_of_model="artifacts/training/model.h5",
-            training_data="artifacts\data_ingestion\Kidney-CT-Scan",
+            path_of_model=str(Path("artifacts/training/model.h5")),
+            training_data=str(Path("artifacts/data_ingestion/Kidney-CT-Scan")),
             mlflow_uri="https://dagshub.com/starmoorthy555/Kidney-Disease-Classification-MLflow-DVC.mlflow",
-            all_parms=self.parms,
-            parms_image_size=self.parms.IMAGE_SIZE,
-            parms_batch_size=self.parms.BATCH_SIZE
+            all_parms=self.parms,  # Ensure self.parms is initialized
+            parms_image_size=self.parms.IMAGE_SIZE,  # Ensure self.parms has IMAGE_SIZE
+            parms_batch_size=self.parms.BATCH_SIZE  # Ensure self.parms has BATCH_SIZE
         )
         return eval_config
