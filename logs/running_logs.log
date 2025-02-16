@@ -1051,3 +1051,152 @@ x==========x]
 [2025-02-16 08:46:01,045: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
 
 x==========x]
+[2025-02-16 08:51:42,130: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 08:53:02,444: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 08:53:04,284: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.109.15:8080]
+[2025-02-16 08:53:04,288: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-16 08:53:36,105: ERROR: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\app.py", line 23, in home
+    return render_template('index.html')
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2025-02-16 08:53:36,307: INFO: _internal: 192.168.109.15 - - [16/Feb/2025 08:53:36] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2025-02-16 08:53:36,412: INFO: _internal: 192.168.109.15 - - [16/Feb/2025 08:53:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-02-16 08:54:31,939: ERROR: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\app.py", line 23, in home
+    return render_template('index.html')
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2025-02-16 08:54:31,953: INFO: _internal: 127.0.0.1 - - [16/Feb/2025 08:54:31] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2025-02-16 08:54:32,050: INFO: _internal: 127.0.0.1 - - [16/Feb/2025 08:54:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-02-16 08:59:30,806: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 08:59:32,713: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.109.15:8080]
+[2025-02-16 08:59:32,715: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-16 09:01:13,700: ERROR: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\app.py", line 26, in home
+    @cross_origin()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2025-02-16 09:01:13,864: INFO: _internal: 192.168.109.15 - - [16/Feb/2025 09:01:13] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2025-02-16 09:02:05,152: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 09:02:08,798: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.109.15:8080]
+[2025-02-16 09:02:08,804: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-02-16 09:02:47,848: ERROR: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\app.py", line 23, in home
+    return render_template('index.html')
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2025-02-16 09:02:47,904: INFO: _internal: 192.168.109.15 - - [16/Feb/2025 09:02:47] "[35m[1mGET / HTTP/1.1[0m" 500 -]
