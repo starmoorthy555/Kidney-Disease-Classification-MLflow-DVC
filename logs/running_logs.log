@@ -819,3 +819,235 @@ mlflow.exceptions.MissingConfigException: Yaml file 'D:\AI\Kidney-Disease-Classi
 [2025-02-11 07:28:47,790: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
 
 x==========x]
+[2025-02-15 02:10:28,489: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-15 02:10:35,655: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2025-02-15 02:10:35,665: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-15 02:10:35,705: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-15 02:10:35,705: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-15 02:10:35,710: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2025-02-15 02:10:37,207: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-15 02:10:37,888: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2025-02-15 02:10:37,888: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-15 02:10:37,893: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-15 02:10:37,913: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-15 02:10:37,918: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-15 02:10:37,923: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-15 02:45:19,822: INFO: main: >>>>>stage:Model_Training completed<<<<<]
+[2025-02-15 02:45:19,847: INFO: main: *******************]
+[2025-02-15 02:45:19,866: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-15 02:45:19,952: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-15 02:45:20,349: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-15 02:45:20,364: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-15 02:47:25,927: INFO: comman: Json_file save at: scores.json]
+[2025-02-15 02:47:25,947: INFO: comman: Json_file save at: scores.json]
+[2025-02-15 02:47:25,949: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
+
+x==========x]
+[2025-02-15 09:06:09,253: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-15 09:06:16,161: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2025-02-15 09:06:16,166: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-15 09:06:16,181: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-15 09:06:16,196: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-15 09:06:16,196: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-15 09:07:24,755: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-15 09:07:28,947: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2025-02-15 09:07:28,947: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2025-02-15 09:07:28,972: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-15 09:07:29,133: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-15 09:07:29,133: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-15 09:07:29,138: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2025-02-15 09:07:31,644: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-15 09:07:32,938: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2025-02-15 09:07:32,944: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-15 09:07:32,958: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-15 09:07:32,992: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-15 09:07:32,998: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-15 09:07:33,033: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-16 06:03:09,747: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 06:03:16,216: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2025-02-16 06:03:16,232: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:03:16,232: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:03:16,232: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:03:16,247: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 06:03:55,915: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 06:03:58,180: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2025-02-16 06:03:58,188: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2025-02-16 06:03:58,188: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:03:58,207: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:03:58,218: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:03:58,218: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2025-02-16 06:04:00,107: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-16 06:04:00,715: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2025-02-16 06:04:00,715: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-16 06:04:00,731: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:04:00,737: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:04:00,739: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:04:00,739: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-16 06:16:39,275: INFO: main: >>>>>stage:Model_Training completed<<<<<]
+[2025-02-16 06:16:39,275: INFO: main: *******************]
+[2025-02-16 06:16:39,275: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-16 06:16:39,295: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:16:39,304: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:16:39,312: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:17:49,459: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 06:17:49,460: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 06:17:49,460: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
+
+x==========x]
+[2025-02-16 06:32:15,194: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 06:32:19,318: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2025-02-16 06:32:19,318: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:32:19,338: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:32:19,346: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:32:19,346: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 06:32:53,606: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 06:32:56,011: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2025-02-16 06:32:56,011: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2025-02-16 06:32:56,036: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:32:56,036: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:32:56,046: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:32:56,046: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2025-02-16 06:32:57,314: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-16 06:32:58,241: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2025-02-16 06:32:58,241: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-16 06:32:58,241: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:32:58,259: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:32:58,267: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:32:58,275: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-16 06:45:40,177: INFO: main: >>>>>stage:Model_Training completed<<<<<]
+[2025-02-16 06:45:40,177: INFO: main: *******************]
+[2025-02-16 06:45:40,177: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-16 06:45:40,177: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 06:45:40,177: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 06:45:40,177: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 06:46:55,912: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 06:46:55,912: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 06:46:55,912: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
+
+x==========x]
+[2025-02-16 07:13:50,378: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 07:13:56,874: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2025-02-16 07:13:56,882: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 07:13:56,898: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 07:13:56,903: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 07:13:56,912: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 07:13:56,939: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028F6A9BA5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000028F6A9BA5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028F6A9BA5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\main.py", line 12, in <module>
+    obj.main()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\stage01_data_ingestion.py", line 13, in main
+    data_ingestion.data_download()
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\data_ingestion.py", line 28, in data_download
+    raise e
+  File "D:\AI\Kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\components\data_ingestion.py", line 24, in data_download
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\DELL\AppData\Roaming\Python\Python39\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1ecywMHUGscWQMX0OpgE61pliJ2MOepbO (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028F6A9BA5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2025-02-16 07:21:42,432: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 07:21:47,231: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2025-02-16 07:21:47,247: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 07:21:47,247: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 07:21:47,247: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 07:21:47,247: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 07:23:17,910: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 07:23:23,031: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2025-02-16 07:23:23,034: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2025-02-16 07:23:23,053: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 07:23:23,081: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 07:23:23,106: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 07:23:23,111: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2025-02-16 07:23:26,467: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-16 07:23:29,847: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2025-02-16 07:23:29,849: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-16 07:23:29,924: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 07:23:29,966: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 07:23:29,971: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 07:23:29,986: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-16 07:48:07,410: INFO: main: >>>>>stage:Model_Training completed<<<<<]
+[2025-02-16 07:48:07,410: INFO: main: *******************]
+[2025-02-16 07:48:07,410: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-16 07:48:07,431: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 07:48:07,464: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 07:48:07,474: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 07:49:35,120: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 07:49:35,121: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 07:49:35,122: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
+
+x==========x]
+[2025-02-16 08:25:31,090: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-02-16 08:25:42,967: INFO: main: >>>>stage:Data Ingestion Stage started<<<<<<]
+[2025-02-16 08:25:42,973: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 08:25:42,988: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 08:25:42,996: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 08:25:43,000: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 08:26:31,218: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ecywMHUGscWQMX0OpgE61pliJ2MOepbO/view?usp=drive_link to artifacts/data_ingestion/data.zip]
+[2025-02-16 08:26:34,995: INFO: main: >>>>>stage:Data Ingestion Stage completed<<<<<]
+[2025-02-16 08:26:34,995: INFO: main: >>>>stage:Preparebase model started<<<<<<]
+[2025-02-16 08:26:35,033: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 08:26:35,056: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 08:26:35,071: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 08:26:35,072: INFO: comman: Directorys:artifacts/prepare_base_model sucessfully]
+[2025-02-16 08:26:37,104: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-16 08:26:38,366: INFO: main: >>>>>stage:Preparebase model completed<<<<<]
+[2025-02-16 08:26:38,366: INFO: main: >>>>stage:Model_Training started<<<<<<]
+[2025-02-16 08:26:38,371: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 08:26:38,383: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 08:26:38,386: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 08:26:38,386: INFO: comman: Directorys:artifacts\training sucessfully]
+[2025-02-16 08:44:28,968: INFO: main: >>>>>stage:Model_Training completed<<<<<]
+[2025-02-16 08:44:28,968: INFO: main: *******************]
+[2025-02-16 08:44:28,971: INFO: main: >>>>>> stage Model_Evaluation started <<<<<<]
+[2025-02-16 08:44:28,981: INFO: comman: yaml file:config\config.yaml load sucessfully]
+[2025-02-16 08:44:29,004: INFO: comman: yaml file:params.yaml load sucessfully]
+[2025-02-16 08:44:29,006: INFO: comman: Directorys:artifacts sucessfully]
+[2025-02-16 08:46:01,042: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 08:46:01,044: INFO: comman: Json_file save at: scores.json]
+[2025-02-16 08:46:01,045: INFO: main: >>>>>> stage Model_Evaluation completed <<<<<<
+
+x==========x]

@@ -66,3 +66,7 @@ export MLFLOW_TRACKING_USERNAME=starmoorthy555
 export MLFLOW_TRACKING_PASSWORD=9277991dc568f752bf161d4794c9095851048097
 
 ```
+### DVC cmd
+dvc init
+dvc repro
+dvc dag
